@@ -1,0 +1,16 @@
+.example {
+margin: 40px auto;
+	width:1000px;
+	height:150px;
+	border-top:1px #AEDFEB solid;
+	border-bottom:1px #FCFC solid ;
+	border-left:-moz-linear-gradient(bottom, rgb(10, 7, 179) 0%, rgb(232, 35, 84) 100%) solid 1px;
+	
+	background-image: -moz-linear-gradient(bottom, rgb(208, 237, 229) 45%, rgb(68, 204, 162) 100%);
+	
+}
+#pin {
+	width: 400px;
+	height:400px;
+	background-color:#383838;
+}

@@ -1,0 +1,40 @@
+.mainBox{
+	margin:0px;
+	padding:0px;
+	top:0px;
+	background:gray;
+}
+
+#bigPicture {
+	position:absolute;
+	width:1000px;
+	height:500px;
+	
+	text-align:left;
+	z-index:9998;
+	background:url(nail2.jpg) ;
+	background-repeat:no-repeat;
+	-khtml-border-radius:4px; -ms-border-radius:4px; -o-border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px;
+	-khtml-box-shadow:rgba(0,0,0,0.3) 0 1px 2px; -ms-box-shadow:rgba(0,0,0,0.3) 0 1px 2px; -o-box-shadow:rgba(0,0,0,0.3) 0 1px 2px; -moz-box-shadow:rgba(0,0,0,0.3) 0 1px 2px; -webkit-box-shadow:rgba(0,0,0,0.3) 0 1px 2px; box-shadow:rgba(0,0,0,0.3) 0 1px 2px;
+	font:12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+#nav {
+	background-color:blue;
+	width:980px;
+	height:18px;
+	position:relative;
+	
+}
+#nav ul {
+
+	list-style-type:none;
+}
+
+#nav ul li {
+	text-decoration:none;
+	float:left;
+}
+
+#nav ul li a {
+	text-decoration:none;
+}
