@@ -1,0 +1,48 @@
+<!doctype html>
+<html >
+<head>
+<meta name="description" content="A visualization of the latest hot searches from Google Trends.">
+<meta name="viewport" content="width=device-width, user-scalable=no"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="google" value="notranslate" />
+<meta property="og:image" content="http://www.google.com/trends/resources/2327917647-google-icon.png" />
+<meta itemprop="image" content="http://www.google.com/trends/resources/2327917647-google-icon.png" />
+<title>Google Trends - Hot Searches</title><script type="text/javascript">
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+
+        eventer(messageEvent, function(e) {
+          if (e.origin == location.protocol + "//hawttrends.appspot.com") {
+            var query = e.data.replace('r=', 'nrow=').replace('c=', 'ncol=').replace('p=', 'pn=p');
+            if (history && history.replaceState) {
+              history.replaceState({}, '', query);
+            } else {
+              if (query.indexOf('?') == 0) {  // Only accept changes to the url query.
+                window.location = query;
+              }
+            }
+          }
+        }, false);
+      </script>
+	</head>
+<body style="margin: 0">
+<iframe height="100%" width="100%" frameborder="0" src="//hawttrends.appspot.com/?c=2&amp;p=28" style="position: absolute;"></iframe>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
